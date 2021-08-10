@@ -79,6 +79,11 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp         
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio (Dirac)
+vendor/lib/soundfx/libdirac.so|1a0ece10a80574188167bba189ec11045c3c2e5a
+vendor/lib/soundfx/libmisoundfx.so|1465352ccca73e11ee2496c94c3ce7b82ea802f7
+vendor/lib64/soundfx/libdirac.so|e01670fb725626c63369082362fcb63c35e1d7a5
+
 # Bluetooth - from jasmine
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
