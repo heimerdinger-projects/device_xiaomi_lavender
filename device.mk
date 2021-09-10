@@ -365,6 +365,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# QCOM namepsaces
+QCOM_SOONG_NAMESPACE := \
+    $(LOCAL_PATH)/qcom-caf
+
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
