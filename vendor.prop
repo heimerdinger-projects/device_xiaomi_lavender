@@ -152,6 +152,8 @@ ro.vendor.use_data_netmgrd=true
 
 # Rendering
 debug.cpurend.vsync=false
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 ro.hwui.render_ahead=3
 
 # Sensor
