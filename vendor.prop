@@ -152,6 +152,8 @@ ro.telephony.default_network=22,22
 ro.vendor.use_data_netmgrd=true
 
 # Rendering
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 ro.config.avoid_gfx_accel=true
 ro.hwui.render_ahead=3
 
