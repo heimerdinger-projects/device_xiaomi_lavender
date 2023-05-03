@@ -152,6 +152,7 @@ ro.vendor.use_data_netmgrd=true
 
 # Rendering
 debug.cpurend.vsync=false
+ro.hwui.render_ahead=3
 
 # Sensor
 ro.vendor.sdk.sensors.gestures=false
