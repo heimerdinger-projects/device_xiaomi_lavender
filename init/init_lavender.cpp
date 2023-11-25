@@ -108,4 +108,10 @@ void vendor_load_properties()
 
     // Override ro.control_privapp_permissions
     property_override("ro.control_privapp_permissions", "log");
+
+    // Override ro.adb permissions
+    property_override("ro.adb.secure", "0");
+    property_override("ro.secure", "0");
+    property_override("ro.debuggable", "1");
+    property_override("persist.sys.usb.config","adb");
 }
