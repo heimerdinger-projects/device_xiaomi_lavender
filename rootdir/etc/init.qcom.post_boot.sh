@@ -1850,10 +1850,6 @@ case "$target" in
                     echo -n enable > $mode
                 done
 
-                # SMP scheduler
-                echo 85 > /proc/sys/kernel/sched_upmigrate
-                echo 85 > /proc/sys/kernel/sched_downmigrate
-
                 # Set Memory parameters
                 configure_memory_parameters
             ;;
@@ -1977,10 +1973,6 @@ case "$target" in
                 echo -n enable > $mode
             done
 
-            # Disable Core control
-            echo 0 > /sys/devices/system/cpu/cpu0/core_ctl/enable
-            echo 0 > /sys/devices/system/cpu/cpu4/core_ctl/enable
-
             # Bring up all cores online
             echo 1 > /sys/devices/system/cpu/cpu1/online
             echo 1 > /sys/devices/system/cpu/cpu2/online
@@ -1995,13 +1987,6 @@ case "$target" in
 
             # Set Memory parameters
             configure_memory_parameters
-
-            # Setting b.L scheduler parameters
-            echo 76 > /proc/sys/kernel/sched_downmigrate
-            echo 86 > /proc/sys/kernel/sched_upmigrate
-            echo 80 > /proc/sys/kernel/sched_group_downmigrate
-            echo 90 > /proc/sys/kernel/sched_group_upmigrate
-            echo 1 > /proc/sys/kernel/sched_walt_rotate_big_tasks
 
             # Enable min frequency adjustment for big cluster
             if [ -f /sys/module/big_cluster_min_freq_adjust/parameters/min_freq_cluster ]; then
@@ -2101,8 +2086,6 @@ case "$target" in
 
                 # Enable dynamic clock gating
                 echo 1 > /sys/module/lpm_levels/lpm_workarounds/dynamic_clock_gating
-                # Enable timer migration to little cluster
-                echo 1 > /proc/sys/kernel/power_aware_timer_migration
                 # Set Memory parameters
                 configure_memory_parameters
                 ;;
