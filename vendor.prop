@@ -131,6 +131,7 @@ vendor.vidc.enc.disable.pq=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf-hal.ver=2.2
 
 # Radio
 persist.radio.multisim.config=dsds
