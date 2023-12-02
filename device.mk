@@ -374,6 +374,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
