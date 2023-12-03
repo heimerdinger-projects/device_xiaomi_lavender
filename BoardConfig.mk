@@ -5,6 +5,7 @@
 #
 
 DEVICE_PATH := device/xiaomi/lavender
+BOARD_VENDOR := xiaomi
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
