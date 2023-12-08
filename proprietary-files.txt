@@ -1606,5 +1606,5 @@ vendor/lib64/libwvhidl.so|0466cd3b2a7b93efd23945e2637430513472ad7c
 vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
 
-# Wifi
-vendor/bin/cnss-daemon
+# WiFi - from LA.UM.9.12.r1-10800-SMxx50.0
+vendor/bin/cnss-daemon|78ebe10a7a46e22d36864406b23f4164b522115c
