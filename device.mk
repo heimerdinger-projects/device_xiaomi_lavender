@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
-    libldacBT_bco \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -113,7 +112,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     memtrack.sdm660 \
     vendor.display.config@2.0 \
-    vendor.display.config@2.0_vendor
+    vendor.display.config@2.0.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
