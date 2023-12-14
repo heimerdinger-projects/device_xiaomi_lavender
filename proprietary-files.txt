@@ -1389,6 +1389,16 @@ vendor/etc/perf/perfconfigstore.xml|7aed790478c9796246ea7c4b3bb6f7d31172ecb3
 vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
 vendor/etc/perf/targetresourceconfigs.xml|50eb2e60eb50a1d27b476c7aeb98ecb612df7eee
 
+# Perf-IOP - from LA.UM.9.2.r1-03500-SDMxx0.0
+system_ext/lib/vendor.qti.hardware.iop@2.0.so|56bc16299ff42c8e21f2595df29ec99f1cbc6f8c
+system_ext/lib64/vendor.qti.hardware.iop@2.0.so|fa4836e76c4b27840184fb097c9d38df9450e0a5
+vendor/lib/libqti-iopd-client.so|3a68a0efb8e31df21a00a864e6a4c8644c92bfc2
+vendor/lib/vendor.qti.hardware.iop@1.0.so|c1ef9e7b57c78b87776d4236a35776b2b84a6741
+vendor/lib/vendor.qti.hardware.iop@2.0.so|d93690b489da65e3203080054a51f72b0b3b67ba
+vendor/lib64/libqti-iopd-client.so|9f644b46e1c9cae11b6131cee099d47ff8d4e730
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|23d85063dc470a2eee35a21e41a431a78f37c0b4
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|2f56757d0cbb082bcf7a4432243374ce53b2e6ec
+
 # Peripheral manager - from jasmine
 vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
 vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
