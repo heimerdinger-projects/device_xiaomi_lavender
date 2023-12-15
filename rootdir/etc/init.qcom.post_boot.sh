@@ -1958,8 +1958,6 @@ case "$target" in
             # cpuset settings
             echo 0-3 > /dev/cpuset/background/cpus
             echo 0-3 > /dev/cpuset/system-background/cpus
-            # choose idle CPU for top app tasks
-            echo 1 > /dev/stune/top-app/schedtune.prefer_idle
 
             # re-enable thermal & BCL core_control now
             echo 1 > /sys/module/msm_thermal/core_control/enabled
@@ -1980,10 +1978,6 @@ case "$target" in
                 echo -n enable > $mode
             done
 
-            # Disable Core control
-            echo 0 > /sys/devices/system/cpu/cpu0/core_ctl/enable
-            echo 0 > /sys/devices/system/cpu/cpu4/core_ctl/enable
-
             # Bring up all cores online
             echo 1 > /sys/devices/system/cpu/cpu1/online
             echo 1 > /sys/devices/system/cpu/cpu2/online
@@ -1998,13 +1992,6 @@ case "$target" in
 
             # Set Memory parameters
             configure_memory_parameters
-
-            # Setting b.L scheduler parameters
-            echo 76 > /proc/sys/kernel/sched_downmigrate
-            echo 86 > /proc/sys/kernel/sched_upmigrate
-            echo 80 > /proc/sys/kernel/sched_group_downmigrate
-            echo 90 > /proc/sys/kernel/sched_group_upmigrate
-            echo 1 > /proc/sys/kernel/sched_walt_rotate_big_tasks
 
             # Enable min frequency adjustment for big cluster
             if [ -f /sys/module/big_cluster_min_freq_adjust/parameters/min_freq_cluster ]; then
