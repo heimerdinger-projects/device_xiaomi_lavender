@@ -10,3 +10,7 @@ ro.charger.enable_suspend=true
 
 # Logs
 persist.log.tag.OpenGLRenderer=S
+
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
