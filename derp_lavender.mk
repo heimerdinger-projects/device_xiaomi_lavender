@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Target from device
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Inherit some common derpfest stuff
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
