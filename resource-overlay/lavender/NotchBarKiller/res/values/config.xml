@@ -19,14 +19,13 @@
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
      -->
-    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-    
-    <!-- If true, and there is a cutout on the main built in display, the cutout will be masked
-         by shrinking the display such that it does not overlap the cutout area. -->
-    <bool name="config_maskMainBuiltInDisplayCutout">true</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
-   <string translatable="false" name="config_mainBuiltInDisplayCutout">M58,0 L-58.0007212,0 L-58.0007212,45.4057646 C-35.4445452,67.8221566 -16.1109714,79.020235 -8.52651283e-14,79 C3.82479465,78.9951961 7.70925593,78.6729031 11.6054322,77.9859874 C24.8823563,75.6441233 40.3461259,64.7753094 57.996741,45.3795456 L58,0 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 L 0, 0 C 0,0 0,0 0,0</string>
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">@*android:string/config_mainBuiltInDisplayCutout</string>
+
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">80.0px</dimen>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">4</integer>
