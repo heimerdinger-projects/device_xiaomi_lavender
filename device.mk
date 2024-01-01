@@ -6,11 +6,14 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/resource-overlay
 
 PRODUCT_PACKAGES += \
+    CarrierConfig \
+    FrameworksRes \
     NotchBarKiller \
+    NoCutoutOverlay \
+    TelephonyRes \
     WifiOverlay
 
 PRODUCT_PACKAGES += \
