@@ -8,13 +8,18 @@
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+PRODUCT_PACKAGES += \
+    CarrierConfig \
+    FrameworksRes \
+    NotchBarKiller \
+    NoCutoutOverlay \
+    TelephonyOverlay \
+    WifiOverlay
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
+    SettingsLavender \
+    SettingsProviderLavender \
+    SystemUILavender
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -406,7 +411,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
