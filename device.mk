@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
     libdisplayconfig \
-    libtinyxml \
+    libqdMetaData \
     memtrack.sdm660 \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
