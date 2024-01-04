@@ -1382,10 +1382,10 @@ vendor/etc/perf/perfconfigstore.xml|7aed790478c9796246ea7c4b3bb6f7d31172ecb3
 vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
 vendor/etc/perf/targetresourceconfigs.xml|50eb2e60eb50a1d27b476c7aeb98ecb612df7eee
 
-# Peripheral manager - from jasmine
-vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
-vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
-vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
+# Peripheral - from LA.UM.10.2.1.r1-03400-sdm660
+vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
+vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
+vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
 
 # Postprocessing - from jasmine
 vendor/bin/hw/vendor.display.color@1.0-service|b091c0d0f898959afedf8a3f83b5e97205fdfbc8
