@@ -289,6 +289,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock \
     vendor.qti.hardware.perf@2.2.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
