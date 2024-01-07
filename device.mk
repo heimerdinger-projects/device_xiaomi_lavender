@@ -10,6 +10,7 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfig \
+    CertificationOverlay \
     FrameworksRes \
     NotchBarKiller \
     NoCutoutOverlay \
