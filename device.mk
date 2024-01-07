@@ -10,6 +10,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     CarrierConfig \
+    CertificationOverlay \
     FrameworksRes \
     NotchBarKiller \
     NoCutoutOverlay \
