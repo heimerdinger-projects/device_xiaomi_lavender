@@ -1318,11 +1318,6 @@ vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc|b5ab5bcd031fe4d9781
 vendor/lib64/libmlipay.so|c3589fa6bae9a78c622a768e65eac07ac8da6d9c
 vendor/lib64/libmlipay@1.1.so|d56a1f39930bc44891a22fc5490efe6aa0eb4a2c
 
-# Peripheral manager - from jasmine
-vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
-vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
-vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
-
 # QMI - from jasmine
 etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 product/lib64/libdiag_system.so:system_ext/lib64/libdiag_system.so|588e842c56dfba4c978d2ef864a567d9cc0051da

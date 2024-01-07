@@ -25,6 +25,11 @@ vendor/lib64/libsdm-disp-vndapis.so|a4e271a373b83b1e04afdbff63ab37154aead5f9
 vendor/lib64/libsdmextension.so|fe6d0c574df498dd768f9d2e1d3fbc5c558883d0
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
+# Peripheral - from LA.UM.10.2.1.r1-03400-sdm660
+vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
+vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
+vendor/lib64/libperipheral_client.so|d31195fdcb56f7cba8034f5a7f7d38b401332c63
+
 # Postprocessing - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
 vendor/bin/mm-pp-dpps|6ea1cce94308164377dab39cc19f1ddd1c6a0836
