@@ -275,6 +275,7 @@ PRODUCT_PACKAGES += \
 # Packages
 PRODUCT_PACKAGES += \
     GalleryFoss \
+    Iceraven \
     MGCParrot
 
 # Permissions
