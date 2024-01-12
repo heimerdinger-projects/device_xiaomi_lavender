@@ -275,7 +275,8 @@ PRODUCT_PACKAGES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    GalleryFoss
+    GalleryFoss \
+    MGCParrot
 
 # Permissions
 PRODUCT_COPY_FILES += \
