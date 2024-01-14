@@ -29,8 +29,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.qcom.usb.rc",
-    src: "etc/init.qcom.usb.rc",
+    name: "init.lavender.usb.rc",
+    src: "etc/init.lavender.usb.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
