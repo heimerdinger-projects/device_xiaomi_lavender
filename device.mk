@@ -9,11 +9,20 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/resource-overlay
 
 PRODUCT_PACKAGES += \
+    CarrierConfig \
+    FrameworksRes \
+    NotchBarKiller \
     NoCutoutOverlay \
-    NotchBarKiller
+    TelephonyOverlay \
+    WifiOverlay
+
+PRODUCT_PACKAGES += \
+    SettingsLavender \
+    SettingsProviderLavender \
+    SystemUILavender
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
