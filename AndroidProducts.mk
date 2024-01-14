@@ -1,13 +1,12 @@
 #
-# Copyright (C) 2022-2023 The LineageOS Project
+# Copyright (C) 2022-2023 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_lavender.mk
+    $(LOCAL_DIR)/aospa_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_lavender-user \
-    arrow_lavender-userdebug \
-    arrow_lavender-eng
+    aospa_lavender-user \
+    aospa_lavender-userdebug
