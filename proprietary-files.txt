@@ -1374,14 +1374,6 @@ vendor/lib64/vendor.qti.hardware.perf@2.0.so|7240f384fd846c8e72b18a4fedd533de3f5
 vendor/lib64/vendor.qti.hardware.perf@2.1.so|129185d3fe639d106aff8f834f814b626a9720c5
 vendor/lib64/vendor.qti.hardware.perf@2.2.so|88c13e106ade95b947f64de3199602a43beb3034
 
-# Perf-configs - from LA.UM.9.2.1.r1-08700-sdm660
-vendor/etc/perf/commonresourceconfigs.xml|1e5fd2e4612b61371cda4114c9091430f6d5fb1c
-vendor/etc/perf/commonsysnodesconfigs.xml|77ea36edec83f67f5c5591f36bd0f75e361db097
-vendor/etc/perf/perfboostsconfig.xml|1b925efc5be95c1fbcec228a609ffa59b1f6ecc9
-vendor/etc/perf/perfconfigstore.xml|7aed790478c9796246ea7c4b3bb6f7d31172ecb3
-vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
-vendor/etc/perf/targetresourceconfigs.xml|50eb2e60eb50a1d27b476c7aeb98ecb612df7eee
-
 # Peripheral - from LA.UM.10.2.1.r1-03400-sdm660
 vendor/bin/pm-proxy|e7b60d477d1c4f7a012408e0804e658bb255aef4
 vendor/bin/pm-service|8a638e73598be5c7470ae0e99a050bf8a4be8ae7
