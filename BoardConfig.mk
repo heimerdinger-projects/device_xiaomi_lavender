@@ -152,10 +152,18 @@ $(foreach p, $(call to-upper, $(INITIAL_PARTITIONS)), \
 $(foreach p, $(call to-upper, $(ADDITIONAL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_EXTFS_INODE_COUNT := -1))
 
+ifneq ($(WITH_GMS),true)
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 838860800 # 800 MB
 $(foreach p, $(call to-upper, $(INITIAL_PARTITIONS)), \
-    $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 209715200)) # 200 MB
+    $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 125829120)) # 120 MB
 $(foreach p, $(call to-upper, $(ADDITIONAL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 83886080)) # 80 MB
+else
+$(foreach p, $(call to-upper, $(INITIAL_PARTITIONS)), \
+    $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 650117120)) # 620 MB
+$(foreach p, $(call to-upper, $(ADDITIONAL_PARTITIONS)), \
+    $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 83886080)) # 80 MB
+endif
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
