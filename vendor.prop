@@ -111,6 +111,9 @@ ro.hardware.vulkan=sdm660
 drm.service.enabled=true
 media.mediadrmservice.enable=true
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
