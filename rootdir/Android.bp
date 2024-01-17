@@ -6,6 +6,12 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "fstab.qcom_ramdisk",
+    src: "etc/fstab.qcom",
+    ramdisk: true,
+}
+
 // Init configuration files
 prebuilt_etc {
     name: "init.device.rc",
