@@ -150,6 +150,13 @@ ro.vendor.use_data_netmgrd=true
 # Rendering
 debug.cpurend.vsync=false
 
+# Spatial Audio
+audio.spatializer.effect.util_clamp_min=300
+persist.vendor.audio.spatializer.speaker_enabled=true
+ro.audio.spatializer_enabled=true
+ro.audio.spatializer_transaural_enabled_default=false
+ro.vendor.audio.feature.spatial=7
+
 # Sensor
 ro.vendor.sdk.sensors.gestures=false
 ro.vendor.sensors.cmc=false
